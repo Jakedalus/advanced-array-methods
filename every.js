@@ -76,6 +76,12 @@ function hasNoDuplicates(arr){
     });
 }
 
+function hasNoDuplicates2(arr){
+    return arr.every(function(v1, i) {
+      return arr.indexOf(val) === arr.lastIndexOf(val);
+    });
+}
+
 /*
 Write a function called hasCertainKey which accepts an array of objects and a key, and returns true if every single object in the array contains that key. Otherwise it should return false.
 
