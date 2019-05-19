@@ -40,7 +40,7 @@ Examples:
 function find(arr, searchValue){
     return arr.filter(function(v) {
         return v === searchValue;
-    })[0]
+    })[0];
 }
 
 /*
